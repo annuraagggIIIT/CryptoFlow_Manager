@@ -1,18 +1,21 @@
-# SupplyChainTracker
-Dapp that allows actors in a supply chain to create, interact and validate products.
+#CryptoFlow_Manager
 
-Interact with the code, as a Farmer, Distributor, Retailer or Consumer and watch how the item is created, logged and how its owner's address changes
-during every crucial step in a supply chain.
+Experience a decentralized application (Dapp) that empowers participants in a supply chain—Farmers, Distributors, Retailers, and Consumers—to collaboratively create, engage with, and verify products. Dive into the code, take on roles such as a Farmer, Distributor, Retailer, or Consumer, and witness the seamless progression of item creation, logging, and dynamic ownership address updates at key stages of the supply chain.
 
-Deployed on Goerli test net:
+Deployed on Sepolia test net:
     
-    Transaction Hash: 0x39dd4a1bd4c147ea1aeac367b1ee30b15cef2425d290c2ca8cbcf375e2569957
-    Contract Address: 0x385deEFe6428b382Acb1b8484611b87755a88172
+    Transaction Hash: *x************************************************************
+    Contract Address: *x*********************************************************
+
+
+
+
+
 Requirements: 
 
-    Truffle v5.11.2 (core: 5.11.2)
+    Truffle v5.3.14
     Ganache v7.9.0
-    Solidity - 0.8.12 (solc-js)
+    Solidity - 0.8.12 
     Node v18.16.0
 
 
@@ -36,23 +39,22 @@ Retailer: 0x3dfe9d12025f4c4b9271b872a8820de44d82e9c5
 Consumer: 0x18d0ed0cb978ddd066c9e681de8aafcfab497648
 
 
-2- In a new terminal window, Run the command to deploy the contract to the local testnet (provided by ganache):
+2- In a new terminal window, Run the command to deploy the contract to the Sepolia Network:
 
-    truffle migrate --reset
+    truffle migrate --network sepolia --reset
 
 3 -In another terminal window cd into the /app folder and run:
 
     npm run dev
 
-4 - Go to this location on your browser:
+4 - Browse for:
 
     http://localhost:8080/
 
-5 - Your Contract owner account will be asked to interact with the smart contract, in order to give the roles to each account.
-    To see the possibilities of interaction, you can refer to the write up document.
+5 - The Contract owner account will be prompted to engage with the smart contract to assign roles to each account. For a comprehensive understanding of the interaction capabilities, please consult the accompanying documentation.
 
 
-6 - Have fun!
+
 
 
 
