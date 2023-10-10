@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #888888;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+hr {
+    border: 1px solid #cccccc;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.number {
+    width: 50%;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn-fetchOne,
+.btn-fetchTwo,
+.btn-harvest,
+.btn-process,
+.btn-pack,
+.btn-forsale,
+.btn-buy,
+.btn-ship,
+.btn-receive,
+.btn-purchase {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-fetchOne:hover,
+.btn-fetchTwo:hover,
+.btn-harvest:hover,
+.btn-process:hover,
+.btn-pack:hover,
+.btn-forsale:hover,
+.btn-buy:hover,
+.btn-ship:hover,
+.btn-receive:hover,
+.btn-purchase:hover {
+    background-color: #45a049;
+}
+
+.form-break {
+    height: 20px;
+}
+
+h2 {
+    color: #333333;
+}
+
+#status {
+    color: #4caf50;
+}
