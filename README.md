@@ -4,8 +4,8 @@ Experience a decentralized application (Dapp) that empowers participants in a su
 
 Deployed on Sepolia test net:
     
-    Transaction Hash: *x************************************************************
-    Contract Address: *x*********************************************************
+    Transaction Hash: 0x************************************************************
+    Contract Address: 0x*********************************************************
 
 
 
@@ -21,22 +21,17 @@ Requirements:
 
 Instructions:
 
+1- Specific accounts were employed for testing purposes. The actor accounts can be directly embedded in the Html/JS files. This is due to the current restriction imposed by Metamask, which prevents access to the addresses of its user's wallets unless the selected one is being used. Ensure that your Metamask includes these designated accounts:
 
-1- Fixed Accounts were used for testing purpuses. 
-If ganache-cli is run with this command, the accounts for the actors can be hard-coded into the Html/JS files. (given the fact that
-metamask is not allowing, at the moment, access to the addresses of its user's wallets, unless it is the one in the selection). Your metamask should also have these accounts: 
+Contract Owner: 0x***************************************
 
-    ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster" 
+Farmer:  0x******************************************
 
-Contract Owner: 0xba1d5313f63916588fbe5b912801c07d3a7ec0b6
+Distributor: 0x*******************************************
 
-Farmer:  0x0a896038580ef8c2ec81ccedb531f9ad484be6ca
+Retailer: 0x*******************************************
 
-Distributor: 0xb705dd03a3981590b942fafffe318470f05597f9
-
-Retailer: 0x3dfe9d12025f4c4b9271b872a8820de44d82e9c5
-
-Consumer: 0x18d0ed0cb978ddd066c9e681de8aafcfab497648
+Consumer: 0x*******************************************
 
 
 2- In a new terminal window, Run the command to deploy the contract to the Sepolia Network:
